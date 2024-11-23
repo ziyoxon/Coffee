@@ -1,0 +1,32 @@
+.section {
+  background-color: #121212;
+  color: white;
+
+  .container_main {
+    padding: 20px;
+
+    .hero {
+      display: flex;
+      justify-content: center;
+
+      .coffee-section {
+        display: flex;
+        gap: 150px;
+
+        .coffee-item {
+          text-align: center;
+
+          .number {
+            color: #ffcc00; /* Oltin rang */
+            font-weight: bold;
+          }
+
+          img {
+            width: 245px;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Righteous', cursive; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #6a4f1d;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #4d3e0a;
+}
